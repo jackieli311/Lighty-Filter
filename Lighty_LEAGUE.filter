@@ -1,0 +1,313 @@
+# Special Item Bases
+ Show
+    BaseType "Steel Ring" "Opal Ring" "Blue Pearl Amulet" "Marble Amulet" "Vanguard Belt" "Crystal Belt" "Breach Ring" 
+    SetBorderColor 238 130 238
+    SetFontSize 45
+
+# Uniques
+Show
+    Rarity Unique
+    SetFontSize 50
+    SetBorderColor 238 130 238
+    PlayAlertSound 6 150
+
+# Highest Tier Currency
+Show
+    BaseType "Exalted Orb" "Ancient Reliquary Key"
+    SetBorderColor 238 130 238
+    SetFontSize 50
+    PlayAlertSound 7 300 
+
+# Expensive Div Cards
+Show
+    Class "Divination Card"
+    BaseType "The Brittle Emperor" "The Celestial Justicar" "The Dapper Prodigy" "The Devastator" "The Doctor" "The Dragon's Heart" "The Artist" "The Ethereal" "The Fiend" "The Hunger" "Hunter's Reward" "The Immortal" "The Jester" "The King's Heart" "Last Hope" "The Last One Standing" "Merciless Armament" "The Offering" "Pride Before the Fall" "The Queen" "The Thaumaturgist" "Time-Lost Relic" "The Vast" "The Warlord" "Wealth and Power"
+    SetBorderColor 238 130 238
+    SetFontSize 45
+    PlayAlertSound 7 100
+
+# Lab Stuff
+Show
+    BaseType "Treasure Key" "Golden Key" "Silver Key" "Bane of the Loyal" "Orb of Elemental Dispersion" "Portal Shredder" "Rod of Detonation" "Sand of Eternity" "Heart of the Gargoyle" "Cube Of Absorption" "Cogs of Disruption" "Offering to the Goddess"
+    SetBorderColor 238 130 238
+    SetFontSize 40 
+
+# Random G00d Stuff
+Show
+    BaseType "Essence of" "Remnant of Corruption" "Sextant"
+    SetBorderColor 238 130 238
+    SetFontSize 45
+
+# Warbands Signiture Mod
+Hide
+    Identified True
+    Class "Helmets" "Boots" "Gloves" "Daggers" "Wands" "Sceptres"
+    Rarity Magic
+    SetFontSize 50
+    SetBorderColor 0 255 39
+
+# Leaguestones & yet to be added map items
+Show
+    Class "Leaguestone" "Misc Map Items"
+    SetBorderColor 238 130 238
+    SetFontSize 45
+
+# Breach Currency & Use-ables
+Show
+    BaseType "Splinter of" "Blessing of" 
+    SetBorderColor 238 130 238
+    SetFontSize 45
+
+# High Tier Currency
+Show
+    BaseType "Chaos Orb" "Regal Orb" "Vaal Orb" "Orb of Regret" "Divine Orb"
+    SetBorderColor 238 130 238
+    SetFontSize 40
+    PlayAlertSound 4
+
+# Upper-Mid Tier currency
+Show
+    BaseType "Orb of Alchemy" "Orb of Fusing" "Orb of Scouring" "Gemcutter's Prism" "Silver Coin"
+    SetBorderColor 238 130 238
+    SetFontSize 40
+    PlayAlertSound 1 
+
+# Mid Tier Currency
+Show
+    BaseType "Chromatic Orb" "Orb of Chance" "Cartographer's Chisel" "Blessed Orb" "Jeweller's Orb" "Glassblower's Bauble" "Orb of Alteration" 
+    SetBorderColor 238 130 238
+    SetFontSize 40
+
+# Low Tier Currency
+Show
+    BaseType "Scroll of Wisdom" "Portal Scroll" "Orb of Transmutation" "Orb of Augmentation" "Armourer's Scrap" "Blacksmith's Whetstone"
+
+# Perandus Coins, no sound, I found it be to annoying for coffers
+Show
+    BaseType "Perandus Coin" 
+    SetBorderColor 238 130 238
+    SetFontSize 40
+
+# For all your meme fishing needs
+Show
+    Class "Fishing Rod" 
+    SetBorderColor 255 255 0
+    SetTextColor 255 255 0
+    SetFontSize 60
+    PlayAlertSound 1
+
+# Super loud and super expensive
+Show
+    BaseType "Mirror of Kalandra"
+    SetBorderColor 255 255 0
+    SetTextColor 255 255 0
+    SetFontSize 70
+    PlayAlertSound 7 300 
+
+# Feather can only be obtained from white rhoa in act 1 merciless mudflats
+Show
+    BaseType "Albino Rhoa Feather"
+    SetBorderColor 255 255 0
+    SetTextColor 255 255 0
+    SetFontSize 55
+    PlayAlertSound 7 300 
+
+# Eternal Orbs. Legacy but can still drop from reliquary keys
+Show
+    BaseType "Eternal Orb" 
+    SetBorderColor 255 255 0
+    SetTextColor 255 255 0
+    SetFontSize 65
+    PlayAlertSound 7 300 
+
+# 6 linked Items
+Show
+    LinkedSockets 6
+    SetTextColor 255 255 0
+    SetBorderColor 255 255 0
+    SetFontSize 55
+    PlayAlertSound 7 300 
+
+# Chromatic Recipe For Mapping/Endgame
+Show
+    LinkedSockets 3
+    Width 1
+    Height 3	
+    SocketGroup RGB
+    SetBorderColor 238 130 238
+    SetFontSize 40
+
+# 4 links leveling
+Show
+    ItemLevel <= 40
+    LinkedSockets 4
+    SetBorderColor 238 130 238
+    SetFontSize 40
+    PlayAlertSound 1
+
+# Chromatic Recipe For Leveling/Questing
+Show
+    ItemLevel <= 60
+    LinkedSockets 3
+    SocketGroup RGB
+    SetBorderColor 238 130 238
+    SetFontSize 40
+
+# Good Universal Bases For Crafting or Essence/Alching
+Show
+    BaseType "Bone Helmet" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Steel Ring" "Opal Ring" "Blue Pearl Amulet" "Marble Amulet" "Vanguard Belt" "Crystal Belt" "Bone Helmet" "Titanium Spirit Shield" "Hubris Circlet" "Vaal Regalia"
+    ItemLevel >= 72
+    SetBorderColor 238 130 238
+    SetFontSize 50
+    PlayAlertSound 1
+
+# Good Universal Bases For Crafting or Essence/Alching
+Show
+    BaseType "Two-Stone Ring" "Onyx Amulet" "Rustic Sash" "Heavy Belt"
+    ItemLevel >= 72
+    Rarity Normal
+    SetBorderColor 238 130 238
+    SetFontSize 50
+   
+
+# 5 linked
+Show
+    LinkedSockets 5
+    SetTextColor 149 255 165
+    SetBorderColor 238 130 238
+    SetFontSize 50
+    PlayAlertSound 1
+
+# 6 socketed
+Show
+    Sockets 6
+    SetBorderColor 238 130 238
+    SetFontSize 45
+    PlayAlertSound 1
+
+# Talismans
+Show
+    Class "Amulet"
+    BaseType "Talisman"
+    SetBorderColor 238 130 238
+    SetFontSize 40
+    PlayAlertSound 1
+
+# Corrupted Items for +1 Curse ammy & glove implicits & +1 end charge belt ect.
+Show
+    Corrupted True
+    SetFontSize 30
+    SetBorderColor 238 130 238
+
+# Rare Jewel
+Show
+    Class "Jewel" 
+    Rarity Rare
+    SetBorderColor 238 130 238
+    SetFontSize 40
+    PlayAlertSound 1
+
+# Magic Jewel
+Show
+    Class "Jewel" 
+    Rarity Magic
+    SetBorderColor 238 130 238
+    SetFontSize 30
+
+# Quality 10+ Gem
+Show
+    Class Gem
+    Quality >= 10
+    SetBorderColor 238 130 238
+    SetFontSize 40
+
+# Quality 10- Gem
+Show
+    Class Gem
+    Quality <= 10
+    SetBorderColor 238 130 238
+    SetFontSize 30
+
+# Good Rare bases
+Show
+    BaseType "Diamond Ring" "Two-Stone Ring" "Onyx Amulet" "Agate Amulet" "Turquoise Amulet" "Citrine Amulet" "Lapis Amulet" "Jade Amulet" "Amber Amulet" "Rustic Sash" "Chain Belt" "Leather Belt" "Heavy Belt" "Prophecy Wand" "Opal Wand" "Imbued Wand" "Profane Wand" "Tornado Wand" "Demon's Horn" "Void Sceptre" "Sambar Sceptre" "Opal Sceptre" "Titanium Spirit Shield" "Fossilised Spirit Shield" "Angelic Kite Shield" "Astral Plate" "Assassin's Garb" "Hubris Circlet" "Vaal Regalia" "Sorcerer Gloves" "Sorcerer Boots" "Glorious Plate" "Titan Gauntlets" "Titan Greaves" "Ruby Ring" "Sapphire Ring" "Topaz Ring" "Eternal Burgonet" "Royal Burgonet" "Spiraled Foil" "Jewelled Foil" 
+    Rarity Rare
+    SetFontSize 55
+    SetBorderColor 238 130 238
+    PlayAlertSound 1
+
+# Chance bases : gold/onyx/death are ssfhc sepcific to me
+Show
+    BaseType "Gold Amulet" "Sorcerer Boots"
+    Rarity Normal
+    SetFontSize 55
+    SetBorderColor 238 130 238
+    PlayAlertSound 1
+
+Show
+    BaseType "Quicksilver Flask"
+    SetFontSize 55
+    SetBorderColor 238 130 238
+    PlayAlertSound 1
+Show 
+    Rarity Rare
+    Class "Dagger" "Wand" "Ring" "Amulet" "Belt" "Boot" "Glove" "Helm"
+    SetBorderColor 1 130 238
+    SetFontSize 40
+Show
+    Class "Divination"
+    SetBorderColor 238 130 238
+    SetFontSize 45
+    PlayAlertSound 1
+Show
+    Class "Map" 
+    BaseType "Eber's Key" "Yriel's Key" "Inya's Key" "Volkuur's Key" "Sacrifice at Dusk" "Sacrifice at Dawn" "Sacrifice at Noon" "Mortal Grief" "Mortal Rage" "Mortal Ignorance" "Fragment of the Phoenix" "Fragment of the Minotaur" "Fragment of the Chimera" "Fragment of the Hydra" "Sacrifice at Midnight" "Mortal Hope"
+    Rarity Normal
+    SetBorderColor 238 130 238
+    SetFontSize 40
+    PlayAlertSound 1
+Show 
+    Class Maps
+    DropLevel >= 78
+    SetBorderColor 255 0 0
+    SetFontSize 45
+    PlayAlertSound 1
+Show 
+    Class Maps
+    SetFontSize 45
+Show
+    Class "Map"
+    BaseType "Lair of the Hydra Map" "Maze of the Minotaur Map" "Forge of the Phoenix Map" "Pit of the Chimera Map" "Vaal Temple Map"
+    SetBorderColor 255 0 0
+    SetFontSize 60
+    PlayAlertSound 1
+Show 
+    Rarity Rare
+    SetFontSize 30
+Show
+    Class Gem
+    BaseType "Empower Support" "Enlighten Support" "Enhance Support" "Vaal Breach" "Portal" "Added Chaos" "Detonate Mines"
+    SetBorderColor 238 130 238
+    SetFontSize 40 
+    PlayAlertSound 1
+Show
+    Class "Gem"
+Show
+    Class "Quest Items"
+    SetBorderColor 0 236 60
+    SetFontSize 30
+    PlayAlertSound 1
+Show
+    ItemLevel = 1
+    BaseType "Driftwood Club" "Rusted Sword" "Crude Bow" "Glass Shank" "Driftwood Wand" "Driftwood Sceptre"
+Show
+    Rarity Rare
+    ItemLevel < 65
+Show
+    Class "Ring" "Amulet" "Belt"
+    ItemLevel < 25
+Show
+    Class "Flask"
+    ItemLevel < 65
+Hide
+    SetFontSize 20
